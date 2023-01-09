@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <%=title%> </title>
+    <%-include('partials/custom')%>
+</head>
+<body>
+
+    <%- include('partials/navigation')%>
+
+    
+
+    <form class="form">
+        <h2>Contactame</h2>
+        <p type="Name:"><input placeholder="Nombre"></input></p>
+        <p type="Email:"><input placeholder="Correo de contacto"></input></p>
+        <p type="Message:"><input placeholder="Dime tu mensaje"></input></p>
+        <button>Enviame un mensaje</button>
+    </form>
+
+      
+
+    <%-include('partials/footer')%>
+</body>
+</html>
